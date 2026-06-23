@@ -1,0 +1,17 @@
+<map id="PageStack" name="PageStack">
+<area shape="rect" id="Node000001" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="5,5,94,33"/>
+<area shape="rect" id="Node000002" href="$classRootWindow.html" title=" " alt="" coords="202,98,305,126"/>
+<area shape="poly" id="edge8_Node000002_Node000001" title=" " alt="" coords="28,46,21,60,24,73,35,81,52,88,98,98,202,107,201,113,97,104,50,93,32,85,20,75,16,60,23,44"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,95,149,76,71,36,73,31,151,72,199,90"/>
+<area shape="rect" id="Node000007" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="207,191,300,218"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="223,138,214,151,213,161,216,171,234,188,230,192,212,173,207,161,209,149,218,135"/>
+<area shape="rect" id="Node000003" href="$classArcFace.html" title=" " alt="" coords="151,5,222,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,46,214,72,238,96,234,100,210,76,195,49"/>
+<area shape="rect" id="Node000004" href="$classFaceAligner.html" title=" " alt="" coords="247,5,343,33"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="285,48,262,99,257,97,280,46"/>
+<area shape="rect" id="Node000005" href="$classSystemMonitor.html" title=" " alt="" coords="367,5,487,33"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="406,47,368,76,338,91,306,101,305,96,336,86,365,72,403,42"/>
+<area shape="rect" id="Node000006" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="511,5,647,33"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="556,46,533,62,507,76,455,93,401,104,306,113,305,108,400,99,453,88,504,72,530,58,552,41"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="259,175,260,166,260,150,255,127,260,126,265,149,265,167,264,176"/>
+</map>

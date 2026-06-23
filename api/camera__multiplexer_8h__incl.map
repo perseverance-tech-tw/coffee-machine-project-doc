@@ -1,0 +1,31 @@
+<map id="include/core/camera_multiplexer.h" name="include/core/camera_multiplexer.h">
+<area shape="rect" id="Node000001" title="Declaration of the CameraMultiplexer class." alt="" coords="688,5,842,50"/>
+<area shape="rect" id="Node000002" href="$camera_8h.html" title="Declaration of the Camera class." alt="" coords="404,98,539,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="689,53,534,96,533,91,687,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="242,249,318,277"/>
+<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="688,35,522,46,319,70,221,88,134,112,64,141,38,157,19,175,11,187,8,198,9,207,14,215,35,230,66,241,147,254,226,259,226,264,146,259,65,246,32,234,10,219,4,209,3,198,6,185,15,172,35,153,62,136,132,107,220,83,319,65,522,40,688,29"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="443,249,501,277"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="793,49,825,80,855,120,865,141,870,162,868,183,856,203,833,221,797,234,753,245,704,253,602,261,516,264,516,259,602,256,703,247,752,240,796,229,830,216,852,200,862,182,865,163,860,143,850,122,821,84,789,52"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="600,174,663,201"/>
+<area shape="poly" id="edge14_Node000001_Node000008" title=" " alt="" coords="749,52,655,164,650,160,745,48"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="688,174,842,201"/>
+<area shape="poly" id="edge15_Node000001_Node000009" title=" " alt="" coords="768,50,768,158,762,158,762,50"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="917,98,968,126"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="813,48,904,90,902,95,811,53"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="992,98,1106,126"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="841,48,990,91,988,96,840,53"/>
+<area shape="rect" id="Node000003" href="$define_8h_source.html" title=" " alt="" coords="117,174,243,201"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="420,129,248,172,246,167,419,124"/>
+<area shape="rect" id="Node000004" href="$module_2logger_2include_2logger_2logger_8h_source.html" title=" " alt="" coords="317,174,435,201"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="456,128,407,166,403,162,453,124"/>
+<area shape="poly" id="edge7_Node000002_Node000005" title=" " alt="" coords="405,126,352,144,328,158,307,175,291,204,284,234,279,233,286,202,303,172,325,153,350,139,403,120"/>
+<area shape="poly" id="edge10_Node000002_Node000006" title=" " alt="" coords="474,126,474,233,469,233,469,126"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="509,174,576,201"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="486,124,522,161,518,164,483,128"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="502,124,591,164,588,169,499,129"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="525,124,698,167,697,172,524,129"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="29,174,93,201"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="404,125,271,145,109,176,108,171,270,140,403,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="360,204,311,242,307,238,357,200"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="395,200,444,238,441,242,391,204"/>
+</map>

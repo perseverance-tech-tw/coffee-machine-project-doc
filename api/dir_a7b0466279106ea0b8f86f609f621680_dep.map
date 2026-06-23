@@ -1,0 +1,12 @@
+<map id="module" name="module">
+<area shape="rect" id="node2" href="dir_197fe8f899131c7c141ffe145e142685.html" title="aruco" alt="" coords="121,27,178,54"/>
+<area shape="rect" id="node3" href="dir_d0e263540bf49060ac0686e43cc0432f.html" title="camera" alt="" coords="202,27,272,54"/>
+<area shape="rect" id="node4" href="dir_2ba306bb71f17871e934e8d735922cf0.html" title="detections" alt="" coords="297,27,386,54"/>
+<area shape="rect" id="node8" href="dir_957b2e42f571a4c3d716ff23898c9cf9.html" title="volume" alt="" coords="306,102,376,130"/>
+<area shape="poly" id="edge1" href="dir_000014_000053.html" alt="" coords="344,55,344,87,339,87,339,55"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000014_000053.html" title="1" alt="" coords="346,75,354,92"/>
+<area shape="rect" id="node5" href="dir_358c8343b52b9845aef659b3073fbe05.html" title="logger" alt="" coords="410,27,472,54"/>
+<area shape="rect" id="node6" href="dir_10cc79f7fc6b87e29db5c02ee56df52c.html" title="moil" alt="" coords="496,27,546,54"/>
+<area shape="rect" id="node7" href="dir_52a5f32e840bc716789d36407e8bec8b.html" title="moil_" alt="" coords="570,27,627,54"/>
+<area shape="rect" id="clust1" href="dir_a7b0466279106ea0b8f86f609f621680.html" alt="" coords="16,16,639,141"/>
+</map>

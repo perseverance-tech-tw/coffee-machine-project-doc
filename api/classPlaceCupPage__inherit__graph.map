@@ -1,0 +1,5 @@
+<map id="PlaceCupPage" name="PlaceCupPage">
+<area shape="rect" id="Node000001" title="UI page responsible for cup placement detection and live camera preview." alt="" coords="5,81,118,109"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="17,5,106,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,49,64,81,59,81,59,49"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="module/detections/src/cup_measurement.cpp" name="module/detections/src/cup_measurement.cpp">
+<area shape="rect" id="Node000001" title="Implementasi CupMeasurement::from_volume_result()" alt="" coords="97,5,270,50"/>
+<area shape="rect" id="Node000002" href="$cup__measurement_8h.html" title="Struct CupMeasurement — hasil estimasi volume &amp; ukuran gelas." alt="" coords="5,98,149,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,52,115,90,112,86,157,48"/>
+<area shape="rect" id="Node000004" href="$cup__volume__estimator_8h.html" title="API publik utama mod_volume — estimasi volume gelas dari raw fisheye frame." alt="" coords="212,106,446,134"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="220,48,297,96,294,100,217,53"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="8,191,66,218"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,144,52,178,48,175,64,142"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="281,137,82,193,80,187,279,132"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="90,191,226,218"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="303,137,200,186,198,181,300,132"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="251,191,407,218"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="332,135,332,175,326,175,326,135"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="431,191,507,218"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="353,132,435,180,432,185,350,137"/>
+<area shape="rect" id="Node000008" href="$height__math_8h.html" title="Struct BBox dan fungsi math untuk estimasi tinggi gelas (7 mode kalibrasi)." alt="" coords="531,191,647,218"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="372,132,534,183,532,188,370,137"/>
+<area shape="rect" id="Node000011" href="$volume__config_8h.html" title="Hardcoded operational parameters untuk mod_volume." alt="" coords="670,191,798,218"/>
+<area shape="poly" id="edge11_Node000004_Node000011" title=" " alt="" coords="395,132,656,185,654,190,394,137"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="475,266,538,294"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="576,221,534,258,530,254,572,217"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="562,266,624,294"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="592,219,594,250,589,251,587,219"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="654,266,815,294"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="737,219,737,251,732,251,732,219"/>
+</map>

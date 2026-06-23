@@ -1,0 +1,89 @@
+/* =============================================================================
+ * doxygen-docusaurus.css
+ * Make the Doxygen API pages match the Docusaurus site (Infima look & feel).
+ *
+ * Docusaurus uses `respectPrefersColorScheme`, so it follows the browser's
+ * light/dark preference. We mirror that here: keep doxygen-awesome's automatic
+ * light/dark surfaces, but recolor the ACCENT to the Docusaurus green in BOTH
+ * modes (light #2e8555, dark #25c2a0) and switch to the Infima font stack.
+ *
+ * doxygen-awesome defines --primary-color in THREE places, each must be
+ * overridden (and the dark one is more specific than a bare `html {}`):
+ *   1. html { }                                        (light)
+ *   2. @media (prefers-color-scheme: dark) html:not(.light-mode) { }  (auto dark)
+ *   3. html.dark-mode { }                              (manual toggle)
+ * Loaded AFTER doxygen-awesome so equal-specificity rules win.
+ * ============================================================================= */
+
+/* ---- Docusaurus / Infima typography (applies in both modes) ---- */
+html {
+  --font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+                 "Noto Sans", Arial, sans-serif, "Apple Color Emoji",
+                 "Segoe UI Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+                           "Courier New", monospace;
+  --page-font-size: 16px;
+  --navigation-font-size: 14.4px;
+  --content-line-height: 1.65;
+  --border-radius-small:  4px;
+  --border-radius-medium: 6px;
+  --border-radius-large:  8px;
+}
+
+/* ---- 1. Light mode: Docusaurus green #2e8555 ---- */
+html {
+  --primary-color:          #2e8555;
+  --primary-dark-color:     #29784c;
+  --primary-light-color:    #33925d;
+  --primary-lighter-color:  #d7ebe0;
+  --primary-lightest-color: #eef7f1;
+}
+
+/* ---- 2. Auto dark (browser preference): Docusaurus dark green #25c2a0 ---- */
+@media (prefers-color-scheme: dark) {
+  html:not(.light-mode) {
+    --primary-color:          #25c2a0;
+    --primary-dark-color:     #4fddbf;
+    --primary-light-color:    #29d5b0;
+    --primary-lighter-color:  #2a3635;
+    --primary-lightest-color: #20292b;
+  }
+}
+
+/* ---- 3. Manual dark toggle: same Docusaurus dark green ---- */
+html.dark-mode {
+  --primary-color:          #25c2a0;
+  --primary-dark-color:     #4fddbf;
+  --primary-light-color:    #29d5b0;
+  --primary-lighter-color:  #2a3635;
+  --primary-lightest-color: #20292b;
+}
+
+/* ---- Top bar: mimic the Docusaurus navbar (slim, soft shadow) ---- */
+#top {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+}
+#titlearea {
+  border-bottom: none;
+  padding: 6px 16px;
+}
+#projectname {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Use the Docusaurus font on elements that hardcode their own */
+body,
+.title,
+div.toc h3,
+#nav-tree,
+.memtitle,
+table.directory {
+  font-family: var(--font-family);
+}
+
+/* Links underline on hover (Infima behaviour) */
+a:hover {
+  text-decoration: underline;
+}

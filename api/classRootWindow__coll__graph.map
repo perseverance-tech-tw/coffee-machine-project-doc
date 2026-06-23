@@ -1,0 +1,17 @@
+<map id="RootWindow" name="RootWindow">
+<area shape="rect" id="Node000001" title=" " alt="" coords="163,98,266,126"/>
+<area shape="rect" id="Node000006" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="94,191,186,218"/>
+<area shape="poly" id="edge6_Node000006_Node000001" title=" " alt="" coords="149,123,124,134,105,151,102,160,105,170,123,188,119,192,101,172,97,160,101,148,121,129,147,118"/>
+<area shape="rect" id="Node000007" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="244,191,332,218"/>
+<area shape="poly" id="edge8_Node000007_Node000001" title=" " alt="" coords="237,136,279,189,275,192,232,140"/>
+<area shape="rect" id="Node000002" href="$classArcFace.html" title=" " alt="" coords="5,5,77,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,42,102,72,132,86,163,96,161,101,130,91,100,76,62,47"/>
+<area shape="rect" id="Node000003" href="$classFaceAligner.html" title=" " alt="" coords="101,5,197,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="158,47,170,72,194,95,191,99,166,76,153,49"/>
+<area shape="rect" id="Node000004" href="$classSystemMonitor.html" title=" " alt="" coords="221,5,341,33"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="271,48,254,76,231,99,228,96,250,72,266,45"/>
+<area shape="rect" id="Node000005" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="365,5,501,33"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="415,47,399,63,380,76,323,98,267,109,266,104,321,93,377,72,396,59,412,43"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="147,175,163,148,191,124,194,128,167,151,152,178"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="309,177,315,164,312,151,292,133,266,122,268,117,295,128,317,148,320,164,314,180"/>
+</map>

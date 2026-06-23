@@ -1,0 +1,5 @@
+<map id="ThreadCupData" name="ThreadCupData">
+<area shape="rect" id="Node000001" title="Contains shared data used by the cup detection pipeline." alt="" coords="12,98,135,126"/>
+<area shape="rect" id="Node000002" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="5,5,142,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,48,76,98,71,98,71,48"/>
+</map>

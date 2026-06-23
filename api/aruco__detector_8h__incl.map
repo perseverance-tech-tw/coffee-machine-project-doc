@@ -1,0 +1,13 @@
+<map id="module/aruco/include/aruco/aruco_detector.h" name="module/aruco/include/aruco/aruco_detector.h">
+<area shape="rect" id="Node000001" title="Public API untuk mod_aruco — ArUco marker detection &amp; pose estimation." alt="" coords="238,5,412,50"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,98,56,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,53,71,100,70,95,239,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="80,98,224,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="280,53,195,93,192,89,278,48"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="248,98,402,126"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,50,328,82,322,82,322,50"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="427,98,485,126"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="361,48,423,87,421,92,358,53"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="509,98,571,126"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="383,48,495,91,493,96,381,53"/>
+</map>

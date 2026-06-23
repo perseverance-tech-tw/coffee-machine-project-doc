@@ -1,0 +1,19 @@
+<map id="PlaceCupPage" name="PlaceCupPage">
+<area shape="rect" id="Node000001" title="UI page responsible for cup placement detection and live camera preview." alt="" coords="5,98,118,126"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="61,5,150,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,47,83,58,68,98,63,96,78,56,84,44"/>
+<area shape="rect" id="Node000003" href="$classRootWindow.html" title=" " alt="" coords="292,98,396,126"/>
+<area shape="poly" id="edge9_Node000003_Node000002" title=" " alt="" coords="101,48,101,61,107,72,118,81,136,88,184,99,292,108,292,113,183,104,134,94,115,86,102,76,96,63,95,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="291,95,240,76,137,36,139,31,242,72,293,90"/>
+<area shape="rect" id="Node000008" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="298,191,390,218"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="314,138,305,151,303,161,307,171,325,188,321,192,303,173,298,161,300,149,309,135"/>
+<area shape="rect" id="Node000004" href="$classArcFace.html" title=" " alt="" coords="242,5,313,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,46,305,72,328,96,325,100,301,76,285,49"/>
+<area shape="rect" id="Node000005" href="$classFaceAligner.html" title=" " alt="" coords="337,5,434,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="376,48,353,99,348,97,371,46"/>
+<area shape="rect" id="Node000006" href="$classSystemMonitor.html" title=" " alt="" coords="457,5,578,33"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="497,47,459,76,428,91,397,101,395,96,426,86,456,72,494,42"/>
+<area shape="rect" id="Node000007" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="601,5,738,33"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="646,46,623,62,597,76,545,93,492,104,397,113,396,108,491,99,544,88,595,72,621,58,643,41"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="349,175,351,166,351,150,346,127,351,126,356,149,356,167,355,176"/>
+</map>

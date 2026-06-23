@@ -1,0 +1,19 @@
+<map id="MenuListsPage" name="MenuListsPage">
+<area shape="rect" id="Node000001" title="Represents the page displaying a list of all available coffees." alt="" coords="5,98,124,126"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="64,5,153,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,47,86,58,71,98,66,96,81,56,87,44"/>
+<area shape="rect" id="Node000003" href="$classRootWindow.html" title=" " alt="" coords="296,98,399,126"/>
+<area shape="poly" id="edge9_Node000003_Node000002" title=" " alt="" coords="104,48,104,61,110,72,121,81,139,88,187,99,295,108,295,113,186,104,137,94,118,86,105,76,99,63,98,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="294,95,243,76,140,36,142,31,245,72,296,90"/>
+<area shape="rect" id="Node000008" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="301,191,393,218"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="317,138,308,151,306,161,310,171,328,188,324,192,306,173,301,161,303,149,312,135"/>
+<area shape="rect" id="Node000004" href="$classArcFace.html" title=" " alt="" coords="245,5,316,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="293,46,308,72,331,96,328,100,304,76,288,49"/>
+<area shape="rect" id="Node000005" href="$classFaceAligner.html" title=" " alt="" coords="340,5,437,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="379,48,356,99,351,97,374,46"/>
+<area shape="rect" id="Node000006" href="$classSystemMonitor.html" title=" " alt="" coords="460,5,581,33"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="500,47,462,76,431,91,400,101,398,96,429,86,459,72,497,42"/>
+<area shape="rect" id="Node000007" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="604,5,741,33"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="649,46,626,62,600,76,548,93,495,104,400,113,399,108,494,99,547,88,598,72,624,58,646,41"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="352,175,354,166,354,150,349,127,354,126,359,149,359,167,358,176"/>
+</map>

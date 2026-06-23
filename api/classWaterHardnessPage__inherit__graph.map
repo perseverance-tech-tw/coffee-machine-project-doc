@@ -1,0 +1,5 @@
+<map id="WaterHardnessPage" name="WaterHardnessPage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,157,109"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="37,5,125,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,49,84,81,78,81,78,49"/>
+</map>

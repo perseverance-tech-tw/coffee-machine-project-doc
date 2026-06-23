@@ -1,0 +1,5 @@
+<map id="fusion::VolumeInput" name="fusion::VolumeInput">
+<area shape="rect" id="Node000001" title="Input per&#45;frame untuk estimasi volume." alt="" coords="5,98,157,126"/>
+<area shape="rect" id="Node000002" href="$structfusion_1_1BBox.html" title="Bounding box dari YOLO detector." alt="" coords="29,5,133,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,48,84,98,78,98,78,48"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MainSetting" name="MainSetting">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,105,109"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="11,5,99,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,49,58,81,52,81,52,49"/>
+</map>

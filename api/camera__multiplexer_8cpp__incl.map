@@ -1,0 +1,35 @@
+<map id="src/core/camera_multiplexer.cpp" name="src/core/camera_multiplexer.cpp">
+<area shape="rect" id="Node000001" title="Implementation of the CameraMultiplexer singleton." alt="" coords="256,5,489,33"/>
+<area shape="rect" id="Node000002" href="$camera__multiplexer_8h.html" title="Declaration of the CameraMultiplexer class." alt="" coords="546,81,740,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="422,31,581,74,580,79,420,36"/>
+<area shape="rect" id="Node000003" href="$camera_8h.html" title="Declaration of the Camera class." alt="" coords="305,157,440,184"/>
+<area shape="poly" id="edge19_Node000001_Node000003" title=" " alt="" coords="375,33,375,141,370,141,370,33"/>
+<area shape="rect" id="Node000005" href="$module_2logger_2include_2logger_2logger_8h_source.html" title=" " alt="" coords="5,232,124,260"/>
+<area shape="poly" id="edge20_Node000001_Node000005" title=" " alt="" coords="356,36,96,225,93,221,353,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="595,112,436,155,435,150,594,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="301,308,377,336"/>
+<area shape="poly" id="edge14_Node000002_Node000006" title=" " alt="" coords="682,107,743,133,804,169,828,190,843,213,846,237,833,262,814,269,774,277,653,293,393,318,392,313,653,287,774,271,813,264,829,258,841,236,838,215,824,193,801,173,740,137,680,112"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="510,308,568,336"/>
+<area shape="poly" id="edge17_Node000002_Node000007" title=" " alt="" coords="740,107,823,126,856,139,877,155,894,182,899,209,894,235,877,262,857,277,827,290,747,307,659,317,584,322,584,317,659,312,746,302,825,285,854,273,873,258,889,233,894,209,889,184,873,158,853,144,821,131,739,112"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="577,232,640,260"/>
+<area shape="poly" id="edge15_Node000002_Node000009" title=" " alt="" coords="654,108,669,143,672,164,668,185,656,206,640,224,636,220,652,203,663,183,667,164,664,144,649,110"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="665,232,819,260"/>
+<area shape="poly" id="edge16_Node000002_Node000010" title=" " alt="" coords="655,107,688,155,728,218,724,221,684,158,650,111"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="465,157,515,184"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="617,112,530,153,528,148,615,107"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="539,157,654,184"/>
+<area shape="poly" id="edge18_Node000002_Node000013" title=" " alt="" coords="637,111,615,145,611,142,633,108"/>
+<area shape="rect" id="Node000004" href="$define_8h_source.html" title=" " alt="" coords="376,232,502,260"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="386,183,419,219,415,223,382,187"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="318,188,135,231,134,226,316,182"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="372,185,348,293,343,292,367,184"/>
+<area shape="poly" id="edge11_Node000003_Node000007" title=" " alt="" coords="434,182,477,201,498,214,516,231,533,261,540,292,535,293,528,263,512,234,495,218,475,205,432,187"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="147,232,214,260"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="339,187,229,229,227,224,337,182"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="415,182,563,228,561,233,414,187"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="439,182,661,226,660,231,438,188"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="238,232,302,260"/>
+<area shape="poly" id="edge12_Node000003_Node000011" title=" " alt="" coords="356,187,302,225,299,221,353,183"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="114,258,287,304,285,309,113,263"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="125,256,136,257,495,312,494,317,135,263,124,261"/>
+</map>

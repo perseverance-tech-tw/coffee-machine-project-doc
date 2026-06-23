@@ -1,0 +1,20 @@
+<map id="SwitchSettingPage" name="SwitchSettingPage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,147,126"/>
+<area shape="poly" id="edge10_Node000001_Node000001" title=" " alt="" coords="163,104,173,112,165,120,147,123,147,118,163,115,168,112,160,108"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="76,5,164,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,47,97,58,82,98,77,96,92,56,99,44"/>
+<area shape="rect" id="Node000003" href="$classRootWindow.html" title=" " alt="" coords="307,98,410,126"/>
+<area shape="poly" id="edge9_Node000003_Node000002" title=" " alt="" coords="115,48,116,61,121,72,142,78,190,86,307,102,306,107,189,91,141,83,117,76,111,63,110,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="305,95,254,76,151,36,153,31,256,72,307,90"/>
+<area shape="rect" id="Node000008" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="312,191,405,218"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="328,138,319,151,318,161,322,171,339,188,336,192,317,173,312,161,314,149,324,135"/>
+<area shape="rect" id="Node000004" href="$classArcFace.html" title=" " alt="" coords="256,5,328,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="305,46,319,72,343,96,339,100,315,76,300,49"/>
+<area shape="rect" id="Node000005" href="$classFaceAligner.html" title=" " alt="" coords="352,5,448,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="390,48,367,99,362,97,385,46"/>
+<area shape="rect" id="Node000006" href="$classSystemMonitor.html" title=" " alt="" coords="472,5,592,33"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="511,47,473,76,443,91,412,101,410,96,441,86,471,72,508,42"/>
+<area shape="rect" id="Node000007" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="616,5,752,33"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="661,46,638,62,612,76,560,93,506,104,411,113,411,108,505,99,558,88,610,72,635,58,658,41"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="364,175,365,166,365,150,360,127,365,126,371,149,371,167,369,176"/>
+</map>

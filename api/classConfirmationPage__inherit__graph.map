@@ -1,0 +1,5 @@
+<map id="ConfirmationPage" name="ConfirmationPage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,142,109"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="29,5,118,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,49,76,81,71,81,71,49"/>
+</map>

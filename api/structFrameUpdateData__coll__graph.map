@@ -1,0 +1,24 @@
+<map id="FrameUpdateData" name="FrameUpdateData">
+<area shape="rect" id="Node000001" title="Helper struct used to safely pass image data to GTK main thread." alt="" coords="95,191,236,218"/>
+<area shape="rect" id="Node000002" href="$classFaceDetectionPage.html" title="UI page responsible for live face detection and camera preview." alt="" coords="5,98,150,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,135,155,188,151,192,99,139"/>
+<area shape="rect" id="Node000003" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="96,5,184,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,45,102,59,91,79,84,98,79,96,86,77,98,55,110,42"/>
+<area shape="rect" id="Node000004" href="$classRootWindow.html" title=" " alt="" coords="311,98,414,126"/>
+<area shape="poly" id="edge10_Node000004_Node000003" title=" " alt="" coords="146,47,151,61,160,72,176,84,192,91,222,95,256,93,298,95,311,98,310,103,297,101,256,98,222,100,190,96,174,89,156,76,146,64,141,49"/>
+<area shape="rect" id="Node000010" href="$classPlaceCupPage.html" title="UI page responsible for cup placement detection and live camera preview." alt="" coords="173,98,286,126"/>
+<area shape="poly" id="edge12_Node000010_Node000003" title=" " alt="" coords="134,48,134,61,138,73,154,88,174,98,172,103,151,92,134,75,129,62,129,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="324,93,251,59,184,36,186,31,253,55,326,88"/>
+<area shape="rect" id="Node000009" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="291,191,384,218"/>
+<area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="312,136,298,151,296,161,299,170,318,188,314,192,295,173,290,161,293,148,308,132"/>
+<area shape="rect" id="Node000005" href="$classArcFace.html" title=" " alt="" coords="298,5,369,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="345,47,361,97,356,98,340,49"/>
+<area shape="rect" id="Node000006" href="$classFaceAligner.html" title=" " alt="" coords="393,5,490,33"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="429,48,409,76,383,99,379,95,405,72,425,45"/>
+<area shape="rect" id="Node000007" href="$classSystemMonitor.html" title=" " alt="" coords="513,5,634,33"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="552,46,532,62,509,76,462,95,416,106,414,101,461,89,507,72,529,58,549,42"/>
+<area shape="rect" id="Node000008" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="657,5,794,33"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="701,45,677,62,649,76,588,95,525,106,415,114,415,108,524,101,587,90,647,72,674,58,698,41"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="343,175,357,125,362,127,348,177"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="214,140,177,192,172,189,209,137"/>
+</map>

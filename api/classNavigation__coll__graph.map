@@ -1,0 +1,17 @@
+<map id="Navigation" name="Navigation">
+<area shape="rect" id="Node000001" title="GTK navigation bar with left, center, and right controls." alt="" coords="5,5,98,33"/>
+<area shape="rect" id="Node000002" href="$classRootWindow.html" title=" " alt="" coords="197,98,300,126"/>
+<area shape="poly" id="edge6_Node000002_Node000001" title=" " alt="" coords="36,47,33,61,37,72,61,87,102,97,197,106,196,112,101,102,59,92,32,76,27,61,31,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="191,95,144,76,71,36,73,31,147,72,193,90"/>
+<area shape="rect" id="Node000007" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="205,191,293,218"/>
+<area shape="poly" id="edge8_Node000007_Node000002" title=" " alt="" coords="218,138,209,151,208,161,212,171,230,188,226,192,207,173,203,161,204,149,214,135"/>
+<area shape="rect" id="Node000003" href="$classArcFace.html" title=" " alt="" coords="146,5,218,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="195,46,210,72,233,96,229,100,205,76,190,49"/>
+<area shape="rect" id="Node000004" href="$classFaceAligner.html" title=" " alt="" coords="242,5,338,33"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="280,48,257,99,252,97,275,46"/>
+<area shape="rect" id="Node000005" href="$classSystemMonitor.html" title=" " alt="" coords="362,5,482,33"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="401,47,364,76,333,91,302,101,300,96,331,86,361,72,398,42"/>
+<area shape="rect" id="Node000006" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="506,5,642,33"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="551,46,528,62,502,76,450,93,396,104,301,113,301,108,396,99,449,88,500,72,525,58,548,41"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="254,175,256,166,256,150,250,127,256,126,261,149,261,167,259,176"/>
+</map>

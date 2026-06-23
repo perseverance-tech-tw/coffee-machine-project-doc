@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["3220"],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/coffee-machine-project-doc/blog","blogTitle":"Blog","authorsListPath":"/coffee-machine-project-doc/blog/authors"}')}}]);
