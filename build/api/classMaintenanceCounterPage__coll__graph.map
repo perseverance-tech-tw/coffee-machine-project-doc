@@ -1,0 +1,19 @@
+<map id="MaintenanceCounterPage" name="MaintenanceCounterPage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,193,126"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="99,5,187,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,47,120,58,105,98,100,96,115,56,122,44"/>
+<area shape="rect" id="Node000003" href="$classRootWindow.html" title=" " alt="" coords="330,98,433,126"/>
+<area shape="poly" id="edge9_Node000003_Node000002" title=" " alt="" coords="138,48,139,61,144,72,168,82,216,90,330,104,329,109,215,96,166,87,140,76,134,63,133,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="328,95,277,76,174,36,176,31,279,72,330,90"/>
+<area shape="rect" id="Node000008" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="336,191,428,218"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="351,138,342,151,341,161,345,171,362,188,359,192,340,173,335,161,337,149,347,135"/>
+<area shape="rect" id="Node000004" href="$classArcFace.html" title=" " alt="" coords="279,5,351,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="328,46,342,72,366,96,362,100,338,76,323,49"/>
+<area shape="rect" id="Node000005" href="$classFaceAligner.html" title=" " alt="" coords="375,5,471,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="413,48,390,99,385,97,408,46"/>
+<area shape="rect" id="Node000006" href="$classSystemMonitor.html" title=" " alt="" coords="495,5,615,33"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="534,47,496,76,466,91,435,101,433,96,464,86,494,72,531,42"/>
+<area shape="rect" id="Node000007" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="639,5,775,33"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="684,46,661,62,635,76,583,93,529,104,434,113,434,108,528,99,581,88,633,72,658,58,681,41"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="387,175,388,166,388,150,383,127,388,126,394,149,394,167,392,176"/>
+</map>

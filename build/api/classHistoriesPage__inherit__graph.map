@@ -1,0 +1,5 @@
+<map id="HistoriesPage" name="HistoriesPage">
+<area shape="rect" id="Node000001" title="Displays the brewing history of the coffee machine." alt="" coords="5,81,116,109"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="16,5,105,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,49,63,81,58,81,58,49"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MenuListsPage" name="MenuListsPage">
+<area shape="rect" id="Node000001" title="Represents the page displaying a list of all available coffees." alt="" coords="5,81,124,109"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="20,5,109,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,49,67,81,62,81,62,49"/>
+</map>

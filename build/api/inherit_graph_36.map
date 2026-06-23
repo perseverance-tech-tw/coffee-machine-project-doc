@@ -1,0 +1,85 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="5,1045,94,1073"/>
+<area shape="rect" id="Node000001" href="$classAromaControlPage.html" title=" " alt="" coords="181,5,323,33"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="49,1030,55,820,71,507,83,349,98,209,116,103,127,67,140,44,158,29,179,21,181,26,160,34,144,48,132,69,122,104,103,210,88,349,76,507,61,820,54,1030"/>
+<area shape="rect" id="Node000002" href="$classCameraConfigPage.html" title=" " alt="" coords="180,57,324,85"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="49,1030,56,829,72,533,84,384,99,252,117,152,128,117,140,96,157,82,178,73,180,78,160,86,144,100,133,120,123,153,105,253,90,384,78,533,61,830,54,1030"/>
+<area shape="rect" id="Node000003" href="$classChangeLanguagePage.html" title=" " alt="" coords="170,109,334,137"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="49,1029,57,839,74,559,86,418,101,295,118,200,129,168,140,148,153,137,168,129,170,133,156,141,144,152,133,170,124,202,106,295,91,419,79,559,62,839,54,1030"/>
+<area shape="rect" id="Node000004" href="$classCoffeePreferenceCustomPage.html" title=" " alt="" coords="145,161,359,189"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="49,1030,58,849,75,586,88,454,102,338,119,249,129,219,140,200,155,188,158,192,144,204,134,221,125,251,108,338,93,454,81,586,63,849,55,1030"/>
+<area shape="rect" id="Node000005" href="$classCoffeePreferenceNamePage.html" title=" " alt="" coords="150,213,354,241"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="50,1030,59,859,77,612,89,489,104,380,120,298,130,270,140,252,155,240,158,244,144,256,135,272,126,299,109,381,95,490,82,613,64,859,55,1030"/>
+<area shape="rect" id="Node000006" href="$classCoffeePreferencePage.html" title=" " alt="" coords="170,265,334,293"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="50,1030,60,868,79,639,105,423,122,347,130,321,140,304,153,293,168,285,171,290,156,297,144,308,135,323,127,348,111,424,84,639,65,869,55,1030"/>
+<area shape="rect" id="Node000007" href="$classConfirmationPage.html" title=" " alt="" coords="184,317,320,345"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="48,1030,49,889,59,687,70,583,86,488,109,410,123,379,140,356,159,341,182,332,184,337,162,346,144,360,128,382,114,412,92,489,75,584,64,687,54,889,53,1030"/>
+<area shape="rect" id="Node000008" href="$classCustomCoffeePage.html" title="Represents the page for customizing coffee settings like strength." alt="" coords="180,369,324,397"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="48,1030,51,898,62,712,73,617,89,529,111,458,125,430,140,408,158,394,178,385,180,390,160,399,144,412,129,432,116,459,95,531,79,617,67,712,56,898,53,1030"/>
+<area shape="rect" id="Node000009" href="$classCustomizePreferencePage.html" title=" " alt="" coords="156,421,348,449"/>
+<area shape="poly" id="edge9_Node000000_Node000009" title=" " alt="" coords="48,1030,52,907,65,736,77,650,93,570,113,505,126,480,140,460,155,447,159,452,144,464,130,482,118,507,98,572,82,650,71,737,58,907,54,1030"/>
+<area shape="rect" id="Node000010" href="$classDisplayPage.html" title=" " alt="" coords="201,473,302,501"/>
+<area shape="poly" id="edge10_Node000000_Node000010" title=" " alt="" coords="49,1030,54,916,69,762,80,683,96,611,115,553,140,512,168,493,200,485,201,490,170,498,144,516,120,555,101,613,86,684,74,762,60,917,54,1030"/>
+<area shape="rect" id="Node000011" href="$classEmptySystemPage.html" title=" " alt="" coords="180,525,324,553"/>
+<area shape="poly" id="edge11_Node000000_Node000011" title=" " alt="" coords="49,1030,57,927,72,787,84,717,99,653,117,600,140,564,158,550,179,542,181,547,161,555,144,568,122,603,104,654,89,718,77,788,62,927,55,1030"/>
+<area shape="rect" id="Node000012" href="$classFaceDetectionPage.html" title="UI page responsible for live face detection and camera preview." alt="" coords="180,577,324,605"/>
+<area shape="poly" id="edge12_Node000000_Node000012" title=" " alt="" coords="50,1030,59,937,76,813,87,751,102,694,119,648,140,616,158,602,178,594,180,599,160,607,144,620,124,650,107,696,93,752,81,814,64,937,55,1030"/>
+<area shape="rect" id="Node000013" href="$classFactorySettingPage.html" title=" " alt="" coords="179,629,324,657"/>
+<area shape="poly" id="edge13_Node000000_Node000013" title=" " alt="" coords="51,1030,61,946,79,838,105,736,121,696,140,668,158,655,178,646,180,651,160,659,144,672,126,698,110,737,84,839,67,947,56,1030"/>
+<area shape="rect" id="Node000014" href="$classGreetingOldPersonPage.html" title=" " alt="" coords="165,681,339,709"/>
+<area shape="poly" id="edge14_Node000000_Node000014" title=" " alt="" coords="52,1030,64,956,83,864,108,777,123,743,140,720,163,704,166,709,144,724,128,746,113,779,88,865,69,957,57,1030"/>
+<area shape="rect" id="Node000015" href="$classGreetingPage.html" title=" " alt="" coords="198,733,306,761"/>
+<area shape="poly" id="edge15_Node000000_Node000015" title=" " alt="" coords="49,1029,53,974,67,905,79,869,94,833,115,801,140,772,167,755,196,747,198,752,169,760,143,776,119,804,99,836,84,871,72,906,59,975,54,1030"/>
+<area shape="rect" id="Node000016" href="$classGuestMember.html" title=" " alt="" coords="195,785,308,813"/>
+<area shape="poly" id="edge16_Node000000_Node000016" title=" " alt="" coords="51,1030,59,985,74,929,100,872,118,846,140,824,166,808,194,800,196,805,168,813,143,828,123,850,105,875,79,931,64,986,56,1031"/>
+<area shape="rect" id="Node000017" href="$classHeatingPage.html" title=" " alt="" coords="200,837,304,865"/>
+<area shape="poly" id="edge17_Node000000_Node000017" title=" " alt="" coords="55,1029,65,994,83,952,107,911,140,876,168,860,199,852,201,857,170,865,143,880,111,914,87,955,70,996,60,1031"/>
+<area shape="rect" id="Node000018" href="$classHistoriesPage.html" title="Displays the brewing history of the coffee machine." alt="" coords="197,889,307,917"/>
+<area shape="poly" id="edge18_Node000000_Node000018" title=" " alt="" coords="61,1030,92,977,114,950,140,928,167,914,196,906,197,911,169,919,143,932,118,954,96,980,65,1032"/>
+<area shape="rect" id="Node000019" href="$classInformationPage.html" title=" " alt="" coords="188,941,316,969"/>
+<area shape="poly" id="edge19_Node000000_Node000019" title=" " alt="" coords="72,1032,103,1004,140,979,186,963,188,968,143,984,106,1009,76,1036"/>
+<area shape="rect" id="Node000020" href="$classLoadingCoffeePage.html" title=" " alt="" coords="179,993,324,1021"/>
+<area shape="poly" id="edge20_Node000000_Node000020" title=" " alt="" coords="108,1040,141,1031,189,1019,191,1024,142,1036,109,1045"/>
+<area shape="rect" id="Node000021" href="$classMainMenuPage.html" title=" " alt="" coords="192,1045,312,1073"/>
+<area shape="poly" id="edge21_Node000000_Node000021" title=" " alt="" coords="109,1056,191,1056,191,1062,109,1062"/>
+<area shape="rect" id="Node000022" href="$classMainSetting.html" title=" " alt="" coords="202,1097,302,1125"/>
+<area shape="poly" id="edge22_Node000000_Node000022" title=" " alt="" coords="109,1073,142,1082,202,1097,201,1102,141,1087,108,1078"/>
+<area shape="rect" id="Node000023" href="$classMaintenanceCounterPage.html" title=" " alt="" coords="158,1149,346,1177"/>
+<area shape="poly" id="edge23_Node000000_Node000023" title=" " alt="" coords="76,1082,106,1110,143,1134,173,1146,171,1151,140,1139,103,1114,72,1086"/>
+<area shape="rect" id="Node000024" href="$classMenuListsPage.html" title="Represents the page displaying a list of all available coffees." alt="" coords="193,1201,311,1229"/>
+<area shape="poly" id="edge24_Node000000_Node000024" title=" " alt="" coords="65,1086,96,1138,118,1164,143,1186,167,1199,193,1206,192,1211,165,1204,140,1191,114,1168,92,1141,61,1089"/>
+<area shape="rect" id="Node000025" href="$classNumberOfStartProductPage.html" title=" " alt="" coords="152,1253,352,1281"/>
+<area shape="poly" id="edge25_Node000000_Node000025" title=" " alt="" coords="60,1087,70,1123,87,1164,111,1204,143,1238,164,1251,161,1255,140,1243,107,1207,83,1166,65,1124,55,1089"/>
+<area shape="rect" id="Node000026" href="$classNumberOfStartScreenPage.html" title=" " alt="" coords="155,1305,349,1333"/>
+<area shape="poly" id="edge26_Node000000_Node000026" title=" " alt="" coords="56,1087,64,1133,79,1188,105,1243,123,1269,143,1290,162,1302,159,1307,140,1295,118,1272,100,1246,74,1189,59,1134,51,1088"/>
+<area shape="rect" id="Node000027" href="$classOperatingInstructionsPage.html" title=" " alt="" coords="156,1357,348,1385"/>
+<area shape="poly" id="edge27_Node000000_Node000027" title=" " alt="" coords="54,1089,59,1143,72,1212,84,1248,99,1282,119,1315,143,1343,161,1355,158,1359,140,1346,115,1318,94,1285,79,1250,67,1213,53,1144,49,1089"/>
+<area shape="rect" id="Node000028" href="$classPlaceCupPage.html" title="UI page responsible for cup placement detection and live camera preview." alt="" coords="196,1409,308,1437"/>
+<area shape="poly" id="edge28_Node000000_Node000028" title=" " alt="" coords="57,1088,69,1161,88,1253,113,1339,128,1372,144,1395,168,1410,196,1418,194,1423,165,1415,140,1398,123,1375,108,1341,83,1254,64,1162,52,1089"/>
+<area shape="rect" id="Node000029" href="$classProductCounterPage.html" title=" " alt="" coords="176,1461,328,1489"/>
+<area shape="poly" id="edge29_Node000000_Node000029" title=" " alt="" coords="56,1088,67,1171,84,1279,110,1381,126,1420,144,1447,159,1458,176,1466,174,1471,156,1463,140,1450,121,1423,105,1383,79,1280,61,1172,51,1089"/>
+<area shape="rect" id="Node000030" href="$classRinseMilkSystemPage.html" title=" " alt="" coords="169,1513,334,1541"/>
+<area shape="poly" id="edge30_Node000000_Node000030" title=" " alt="" coords="55,1088,64,1181,81,1305,93,1366,107,1422,124,1468,144,1499,170,1516,167,1520,140,1502,119,1470,102,1424,87,1368,76,1305,59,1182,50,1088"/>
+<area shape="rect" id="Node000031" href="$classSetting1Page.html" title=" " alt="" coords="199,1565,305,1593"/>
+<area shape="poly" id="edge31_Node000000_Node000031" title=" " alt="" coords="55,1088,62,1191,77,1330,89,1400,104,1464,122,1516,144,1551,169,1568,199,1576,198,1581,167,1572,140,1554,117,1518,99,1465,84,1401,72,1331,57,1192,49,1089"/>
+<area shape="rect" id="Node000032" href="$classSetting2Page.html" title=" " alt="" coords="199,1617,305,1645"/>
+<area shape="poly" id="edge32_Node000000_Node000032" title=" " alt="" coords="54,1089,60,1202,74,1356,86,1434,101,1505,120,1564,144,1603,169,1620,199,1628,198,1633,167,1624,140,1606,115,1566,96,1507,80,1435,69,1357,54,1202,49,1089"/>
+<area shape="rect" id="Node000033" href="$classSetting3Page.html" title=" " alt="" coords="199,1669,305,1697"/>
+<area shape="poly" id="edge33_Node000000_Node000033" title=" " alt="" coords="54,1089,58,1211,71,1381,82,1468,98,1547,118,1611,130,1636,144,1655,169,1672,199,1680,198,1685,167,1677,140,1658,126,1639,113,1613,93,1548,77,1469,65,1382,52,1211,48,1089"/>
+<area shape="rect" id="Node000034" href="$classSettingCameraCalibrationPage.html" title=" " alt="" coords="142,1721,362,1749"/>
+<area shape="poly" id="edge34_Node000000_Node000034" title=" " alt="" coords="53,1088,56,1220,67,1406,79,1501,95,1588,116,1659,129,1686,144,1707,159,1719,155,1723,140,1710,125,1689,111,1661,89,1589,73,1502,62,1406,51,1220,48,1088"/>
+<area shape="rect" id="Node000035" href="$classStandbyPage.html" title=" " alt="" coords="199,1773,304,1801"/>
+<area shape="poly" id="edge35_Node000000_Node000035" title=" " alt="" coords="53,1088,54,1229,64,1431,75,1534,92,1629,114,1706,128,1736,144,1759,169,1776,199,1784,198,1789,167,1781,140,1762,123,1739,109,1708,86,1630,70,1535,59,1431,49,1230,48,1088"/>
+<area shape="rect" id="Node000036" href="$classSwitchSettingPage.html" title=" " alt="" coords="181,1825,322,1853"/>
+<area shape="poly" id="edge36_Node000000_Node000036" title=" " alt="" coords="55,1088,65,1250,84,1479,111,1694,127,1770,135,1796,144,1811,161,1824,182,1833,180,1838,158,1829,140,1814,130,1798,122,1772,105,1695,79,1480,60,1250,50,1089"/>
+<area shape="rect" id="Node000037" href="$classThankYouPage.html" title=" " alt="" coords="195,1877,309,1905"/>
+<area shape="poly" id="edge37_Node000000_Node000037" title=" " alt="" coords="55,1088,64,1259,82,1506,95,1629,109,1737,126,1819,135,1846,144,1863,167,1879,195,1888,194,1893,165,1884,140,1866,130,1849,120,1820,104,1738,89,1629,77,1506,59,1260,50,1089"/>
+<area shape="rect" id="Node000038" href="$classUnitsPage.html" title=" " alt="" coords="209,1929,295,1957"/>
+<area shape="poly" id="edge38_Node000000_Node000038" title=" " alt="" coords="55,1088,63,1269,81,1532,93,1664,108,1780,125,1868,134,1897,144,1915,157,1926,173,1934,209,1941,208,1947,172,1939,154,1931,140,1918,129,1899,119,1869,102,1781,88,1665,75,1533,58,1270,49,1089"/>
+<area shape="rect" id="Node000039" href="$classVolumeCoffeePage.html" title="Represents the page where the user can adjust the coffee volume." alt="" coords="180,1981,324,2009"/>
+<area shape="poly" id="edge39_Node000000_Node000039" title=" " alt="" coords="54,1089,62,1280,79,1559,91,1699,106,1823,124,1917,133,1948,144,1967,160,1980,181,1988,179,1993,158,1985,140,1970,129,1950,118,1918,101,1824,86,1700,74,1559,57,1280,49,1089"/>
+<area shape="rect" id="Node000040" href="$classWaterHardnessPage.html" title=" " alt="" coords="176,2033,328,2061"/>
+<area shape="poly" id="edge40_Node000000_Node000040" title=" " alt="" coords="54,1089,61,1289,78,1585,90,1734,105,1866,123,1965,133,1999,144,2019,159,2031,177,2039,175,2044,156,2036,140,2022,128,2001,117,1967,99,1866,84,1735,72,1585,56,1289,49,1089"/>
+<area shape="rect" id="Node000041" href="$classdetection__page.html" title=" " alt="" coords="191,2085,312,2113"/>
+<area shape="poly" id="edge41_Node000000_Node000041" title=" " alt="" coords="54,1089,61,1299,76,1611,88,1769,103,1908,122,2014,132,2050,144,2071,165,2087,192,2095,190,2100,163,2091,140,2074,127,2052,116,2015,98,1909,83,1770,71,1612,55,1299,49,1089"/>
+</map>

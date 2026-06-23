@@ -1,0 +1,21 @@
+<map id="PaginationButtonData" name="PaginationButtonData">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,191,169,218"/>
+<area shape="rect" id="Node000002" href="$classMainMenuPage.html" title=" " alt="" coords="27,98,147,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,141,90,190,84,190,84,141"/>
+<area shape="rect" id="Node000003" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="87,5,175,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="114,47,108,58,93,98,88,96,103,56,110,44"/>
+<area shape="rect" id="Node000004" href="$classRootWindow.html" title=" " alt="" coords="318,98,421,126"/>
+<area shape="poly" id="edge10_Node000004_Node000003" title=" " alt="" coords="126,48,127,61,132,72,144,81,161,88,209,99,318,108,317,113,208,104,160,94,141,86,128,76,122,63,121,49"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="316,95,265,76,162,36,164,31,267,72,318,90"/>
+<area shape="rect" id="Node000009" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="324,191,416,218"/>
+<area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="339,138,330,151,329,161,333,171,350,188,347,192,328,173,323,161,325,149,335,135"/>
+<area shape="rect" id="Node000005" href="$classArcFace.html" title=" " alt="" coords="267,5,339,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="316,46,330,72,354,96,350,100,326,76,311,49"/>
+<area shape="rect" id="Node000006" href="$classFaceAligner.html" title=" " alt="" coords="363,5,459,33"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="401,48,378,99,373,97,396,46"/>
+<area shape="rect" id="Node000007" href="$classSystemMonitor.html" title=" " alt="" coords="483,5,603,33"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="522,47,484,76,454,91,423,101,421,96,452,86,482,72,519,42"/>
+<area shape="rect" id="Node000008" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="627,5,763,33"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="672,46,649,62,623,76,571,93,517,104,422,113,422,108,516,99,569,88,621,72,646,58,669,41"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="375,175,376,166,376,150,371,127,376,126,382,149,382,167,380,176"/>
+</map>

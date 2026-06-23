@@ -1,0 +1,9 @@
+<map id="module/volume/include/volume/volume_config.h" name="module/volume/include/volume/volume_config.h">
+<area shape="rect" id="Node000001" title="Hardcoded operational parameters untuk mod_volume." alt="" coords="98,5,283,50"/>
+<area shape="rect" id="Node000002" href="$cup__volume__estimator_8h.html" title="API publik utama mod_volume — estimasi volume gelas dari raw fisheye frame." alt="" coords="72,98,310,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,66,193,98,188,98,188,66"/>
+<area shape="rect" id="Node000003" href="$cup__measurement_8cpp.html" title="Implementasi CupMeasurement::from_volume_result()" alt="" coords="5,191,179,235"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="158,155,117,192,114,188,154,151"/>
+<area shape="rect" id="Node000004" href="$cup__volume__estimator_8cpp.html" title="Implementasi CupVolumeEstimator — pipeline volume dari raw fisheye frame." alt="" coords="203,191,376,235"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="227,151,268,188,264,192,223,155"/>
+</map>

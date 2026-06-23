@@ -1,0 +1,510 @@
+<!doctype html><html lang=en dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-project-documentation/module-design" data-has-hydrated=false><head><meta charset=UTF-8><meta name=generator content="Docusaurus v3.10.1"><title data-rh=true>5. Module Design (MDS) | Coffee Machine Documentations</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"/><meta data-rh=true name=twitter:card content=summary_large_image /><meta data-rh=true property=og:image content=https://perseverance-tech-tw.github.io/coffee-machine-project-doc/img/docusaurus-social-card.jpg /><meta data-rh=true name=twitter:image content=https://perseverance-tech-tw.github.io/coffee-machine-project-doc/img/docusaurus-social-card.jpg /><meta data-rh=true property=og:url content=https://perseverance-tech-tw.github.io/coffee-machine-project-doc/docs/project-documentation/module-design /><meta data-rh=true property=og:locale content=en /><meta data-rh=true name=docusaurus_locale content=en /><meta data-rh=true name=docsearch:language content=en /><meta data-rh=true name=docusaurus_version content=current /><meta data-rh=true name=docusaurus_tag content=docs-default-current /><meta data-rh=true name=docsearch:version content=current /><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current /><meta data-rh=true property=og:title content="5. Module Design (MDS) | Coffee Machine Documentations"/><meta data-rh=true name=description content="Module Design Specification — purpose, responsibilities, and key functions of the AI/vision modules."/><meta data-rh=true property=og:description content="Module Design Specification — purpose, responsibilities, and key functions of the AI/vision modules."/><link data-rh=true rel=canonical href=https://perseverance-tech-tw.github.io/coffee-machine-project-doc/docs/project-documentation/module-design /><link data-rh=true rel=alternate href=https://perseverance-tech-tw.github.io/coffee-machine-project-doc/docs/project-documentation/module-design hreflang=en /><link data-rh=true rel=alternate href=https://perseverance-tech-tw.github.io/coffee-machine-project-doc/docs/project-documentation/module-design hreflang=x-default /><script data-rh=true type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://perseverance-tech-tw.github.io/coffee-machine-project-doc/docs/category/project-documentation","name":"Project Documentation","position":1},{"@type":"ListItem","item":"https://perseverance-tech-tw.github.io/coffee-machine-project-doc/docs/project-documentation/module-design","name":"5. Module Design (MDS)","position":2}]}</script><link rel=alternate type=application/rss+xml href=/coffee-machine-project-doc/blog/rss.xml title="Coffee Machine Documentations RSS Feed"><link rel=alternate type=application/atom+xml href=/coffee-machine-project-doc/blog/atom.xml title="Coffee Machine Documentations Atom Feed"><link rel=icon href=data:,><link rel=stylesheet href=/coffee-machine-project-doc/assets/css/styles.bd71e6e0.css /><script src=/coffee-machine-project-doc/assets/js/runtime~main.8e3fa87b.js defer></script><script src=/coffee-machine-project-doc/assets/js/main.d6536634.js defer></script></head><body><svg style="display: none;"><defs>
+<symbol id=theme-svg-external-link viewBox="0 0 24 24"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme-46b")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="theme-layout-navbar navbar navbar--fixed-top"><div class=navbar__inner><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/coffee-machine-project-doc/><b class="navbar__title text--truncate">Coffee Machine Docs</b></a><a aria-current=page class="navbar__item navbar__link navbar__link--active" href=/coffee-machine-project-doc/docs/intro>Docs</a><a href=/coffee-machine-project-doc/api/index.html target=_blank rel="noopener noreferrer" class="navbar__item navbar__link">API Reference<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><a class="navbar__item navbar__link" href=/coffee-machine-project-doc/blog>Blog</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href=https://github.com/perseverance-tech-tw/coffee-machine-project-for-UCHI target=_blank rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type=button disabled title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill=currentColor d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"/></svg></button></div><div class=navbarSearchContainer_Bca1></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class=sidebarViewport_aRkj><div class=sidebar_njMd><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class=menu__link href=/coffee-machine-project-doc/docs/intro><span title=Introduction class=linkLabel_WmDU>Introduction</span></a><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/coffee-machine-project-doc/docs/category/getting-started><span title="Getting Started" class=categoryLinkLabel_W154>Getting Started</span></a><button aria-label="Expand sidebar category 'Getting Started'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--active" href=/coffee-machine-project-doc/docs/category/project-documentation><span title="Project Documentation" class=categoryLinkLabel_W154>Project Documentation</span></a><button aria-label="Collapse sidebar category 'Project Documentation'" aria-expanded=true type=button class="clean-btn menu__caret"></button></div><ul class=menu__list><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/coffee-machine-project-doc/docs/project-documentation/project-scope><span title="1. Project Scope (PSD)" class=linkLabel_WmDU>1. Project Scope (PSD)</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/coffee-machine-project-doc/docs/project-documentation/functional-requirements><span title="2. Functional Requirements (FRS)" class=linkLabel_WmDU>2. Functional Requirements (FRS)</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/coffee-machine-project-doc/docs/project-documentation/non-functional-requirements><span title="3. Non-Functional Requirements (NFR)" class=linkLabel_WmDU>3. Non-Functional Requirements (NFR)</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/coffee-machine-project-doc/docs/project-documentation/software-architecture><span title="4. Software Architecture (SAD)" class=linkLabel_WmDU>4. Software Architecture (SAD)</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current=page tabindex=0 href=/coffee-machine-project-doc/docs/project-documentation/module-design><span title="5. Module Design (MDS)" class=linkLabel_WmDU>5. Module Design (MDS)</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/coffee-machine-project-doc/docs/project-documentation/coding-standard><span title="6. Coding Standard & Patterns" class=linkLabel_WmDU>6. Coding Standard & Patterns</span></a><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class=menu__link tabindex=0 href=/coffee-machine-project-doc/docs/project-documentation/test-plan><span title="7. Test Plan" class=linkLabel_WmDU>7. Test Plan</span></a></ul><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/coffee-machine-project-doc/docs/category/uiux-design><span title="UI/UX Design" class=categoryLinkLabel_W154>UI/UX Design</span></a><button aria-label="Expand sidebar category 'UI/UX Design'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class=menu__list-item-collapsible><a class="categoryLink_byQd menu__link menu__link--sublist" href=/coffee-machine-project-doc/docs/category/user-manual><span title="User Manual" class=categoryLinkLabel_W154>User Manual</span></a><button aria-label="Expand sidebar category 'User Manual'" aria-expanded=false type=button class="clean-btn menu__caret"></button></div></ul></nav></div></div></aside><main class=docMainContainer_TBSr><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label=Breadcrumbs><ul class=breadcrumbs><li class=breadcrumbs__item><a aria-label="Home page" class=breadcrumbs__link href=/coffee-machine-project-doc/><svg viewBox="0 0 24 24" class=breadcrumbHomeIcon_YNFT><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill=currentColor /></svg></a><li class=breadcrumbs__item><a class=breadcrumbs__link href=/coffee-machine-project-doc/docs/category/project-documentation><span>Project Documentation</span></a><li class="breadcrumbs__item breadcrumbs__item--active"><span class=breadcrumbs__link>5. Module Design (MDS)</span></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Module Design Specification (MDS)</h1></header>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=overview>Overview<a href=#overview class=hash-link aria-label="Direct link to Overview" title="Direct link to Overview" translate=no>​</a></h2>
+<p>This section specifies the design of the software modules that make up the Smart Coffee Machine. It defines the responsibilities, interfaces, dependencies, and operational roles of each component identified in the <a class="" href=/coffee-machine-project-doc/docs/project-documentation/software-architecture>Software Architecture Document</a>.</p>
+<p>The modules below are tailored for an embedded coffee-machine platform that integrates graphical user interaction, computer-vision cup detection, liquid-level monitoring, hardware control, and local data management. Particular emphasis is placed on:</p>
+<ul>
+<li class="">Real-time responsiveness for user interaction and vision processing.</li>
+<li class="">Accurate cup detection and position validation before dispensing.</li>
+<li class="">Liquid-level monitoring to prevent overflow.</li>
+<li class="">Operational safety during brewing and dispensing.</li>
+<li class="">Robust handling of cameras, sensors, and hardware.</li>
+<li class="">Maintainability and scalability for future enhancements.</li>
+</ul>
+<p>These modules live under <a href=https://github.com/perseverance-tech-tw/coffee-machine-project-for-UCHI/tree/main/module target=_blank rel="noopener noreferrer" class=""><code>module/</code></a>. For complete class- and function-level signatures, see the <a href=/coffee-machine-project-doc/coffee-machine-project-for-UCHI/api/index.html target=_blank rel="noopener noreferrer" class="">API Reference</a>.</p>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-arucoaruco_detector>Module: <code>aruco::aruco_detector</code><a href=#module-arucoaruco_detector class=hash-link aria-label="Direct link to module-arucoaruco_detector" title="Direct link to module-arucoaruco_detector" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the interface and data structures for ArUco marker detection: detecting markers, annotating frames, estimating marker distance, loading camera calibration, converting rotation vectors, and evaluating reprojection accuracy.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>ArucoDetector</code> class interface.</li>
+<li class="">Provide ArUco marker detection and frame annotation.</li>
+<li class="">Support camera-calibration loading for accurate marker pose and distance estimation.</li>
+<li class="">Convert rotation vectors into Euler angles.</li>
+<li class="">Provide reprojection-error calculation for calibration and pose validation.</li>
+<li class="">Expose detection results to other modules (camera processing, cup detection, calibration).</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>detect()</code><td>Detects ArUco markers from an input frame and returns detection info.<td>Camera frame<td>ArUco detection result<tr><td><code>annotate_frame()</code><td>Draws marker boundaries, IDs, and related info on the frame.<td>Camera frame, detection result<td>Annotated frame<tr><td><code>get_best_distance()</code><td>Selects the most relevant/closest marker distance.<td>ArUco detection results<td>Best distance result<tr><td><code>load_camera_calibration()</code><td>Loads camera matrix and distortion coefficients.<td>Calibration file path<td>Calibration load status<tr><td><code>rvec_to_euler()</code><td>Converts a rotation vector to Euler angles.<td>Rotation vector<td>Euler angles<tr><td><code>compute_reprojection_error()</code><td>Computes reprojection error for calibration/pose accuracy.<td>Object points, image points, calibration data<td>Reprojection error</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-cameracamera>Module: <code>camera::camera</code><a href=#module-cameracamera class=hash-link aria-label="Direct link to module-cameracamera" title="Direct link to module-cameracamera" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the camera interface and supporting classes for frame capture, fisheye handling, focal-length access, and frame retrieval.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>Camera</code> class for managing camera operations.</li>
+<li class="">Define the <code>MoilUndistorter</code> class for fisheye/lens-distortion correction.</li>
+<li class="">Start and stop the camera.</li>
+<li class="">Provide access to processed and raw frames.</li>
+<li class="">Provide camera info such as fisheye status and focal length.</li>
+<li class="">Support continuous capture via the camera loop.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>start_camera()</code><td>Starts capture and prepares for frame acquisition.<td>Camera source configuration<td>Camera running state<tr><td><code>stop_camera()</code><td>Stops capture and releases resources.<td>None<td>Camera stopped state<tr><td><code>get_frame()</code><td>Returns the latest processed frame (distortion-corrected if enabled).<td>None<td>Processed frame<tr><td><code>get_raw_frame()</code><td>Returns the latest raw frame from the source.<td>None<td>Raw frame<tr><td><code>is_fisheye()</code><td>Whether the source uses a fisheye configuration.<td>None<td>Fisheye status<tr><td><code>get_focal_length()</code><td>Returns the configured/calculated focal length.<td>None<td>Focal-length value<tr><td><code>camera_loop()</code><td>Continuously captures frames and updates the internal buffer.<td>Capture configuration<td>Updated frame buffer</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-detectionscupcup_detector_v2h>Module: <code>detections::cup::cup_detector_v2h</code><a href=#module-detectionscupcup_detector_v2h class=hash-link aria-label="Direct link to module-detectionscupcup_detector_v2h" title="Direct link to module-detectionscupcup_detector_v2h" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the cup-detection interface for the Renesas RZ/V2H platform: detect cup presence, validate position, process AI inference output, and retrieve results.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>CupDetectorV2H</code> class interface.</li>
+<li class="">Cup detection via AI inference.</li>
+<li class="">Validate whether the cup is at the required center point.</li>
+<li class="">Process raw AI model outputs into usable detection results.</li>
+<li class="">Retrieve inference result status.</li>
+<li class="">Convert float16 output to float32 for post-processing.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>detect()</code><td>Runs cup detection on a frame.<td>Camera frame<td>Cup detection result<tr><td><code>check_cup_in_center()</code><td>Checks whether the cup is within the center tolerance area.<td>Detection result, center point<td>Cup position status<tr><td><code>R_Post_Proc()</code><td>Post-processes raw AI output into structured results.<td>AI output buffer<td>Processed detection result<tr><td><code>get_result()</code><td>Retrieves the current inference/detection status.<td>None<td>Result status code<tr><td><code>float16_to_float32()</code><td>Converts 16-bit float to 32-bit float.<td>Float16 value<td>Float32 value</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-detectionscupcup_measurement>Module: <code>detections::cup::cup_measurement</code><a href=#module-detectionscupcup_measurement class=hash-link aria-label="Direct link to module-detectionscupcup_measurement" title="Direct link to module-detectionscupcup_measurement" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the <code>CupMeasurement</code> data structure representing the estimated cup volume and size category, converting the volume-estimation result (<code>fusion::VolumeResult</code>) into a simplified form for the UI, brewing control, and dispensing logic.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>CupSize</code> enum for size classification.</li>
+<li class="">Store estimated cup volume (mL) and the classified size category.</li>
+<li class="">Provide a display label for the UI.</li>
+<li class="">Convert <code>fusion::VolumeResult</code> into a <code>CupMeasurement</code>.</li>
+<li class="">Provide a default "unknown" state for reset/invalid detections.</li>
+<li class="">Avoid circular dependencies via forward declaration of <code>fusion::VolumeResult</code>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function / Type<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>CupSize</code><td>Size categories: <code>UNKNOWN</code>, <code>S</code>, <code>M</code>, <code>L</code>, <code>XL</code>.<td>Estimated volume<td>Cup-size category<tr><td><code>CupMeasurement</code><td>Stores volume, size category, and display label.<td>Volume and size data<td>Cup-measurement data<tr><td><code>from_volume_result()</code><td>Converts <code>fusion::VolumeResult</code> into a <code>CupMeasurement</code>.<td><code>fusion::VolumeResult</code><td><code>CupMeasurement</code><tr><td><code>unknown()</code><td>Returns a default <code>CupMeasurement</code> (UNKNOWN, 0 mL).<td>None<td>Default <code>CupMeasurement</code></table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-detectionsai>Module: <code>detections::ai</code><a href=#module-detectionsai class=hash-link aria-label="Direct link to module-detectionsai" title="Direct link to module-detectionsai" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the central AI-manager interface: a shared access point for initializing and managing AI components used by the detection pipeline.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>AI</code> class as the central AI manager.</li>
+<li class="">Initialize AI resources required by detection modules.</li>
+<li class="">Manage shared access to AI components for cup detection and computer vision.</li>
+<li class="">Coordinate detection modules that require AI inference resources.</li>
+<li class="">Ensure AI resources are prepared before detection runs.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>AI()</code><td>Initializes the AI manager and prepares AI resources.<td>None<td>Initialized <code>AI</code> object</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-detectionsbox>Module: <code>detections::box</code><a href=#module-detectionsbox class=hash-link aria-label="Direct link to module-detectionsbox" title="Direct link to module-detectionsbox" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define bounding-box and detection data structures with geometric operations: area, intersection, overlap, IoU, union, and non-maximum suppression (NMS).</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>Box</code> class for bounding-box coordinates/dimensions.</li>
+<li class="">Define the <code>Detection</code> class for detection results.</li>
+<li class="">Provide geometric calculations (area, intersection, containment).</li>
+<li class="">Calculate overlap and IoU between boxes.</li>
+<li class="">Support box union and intersection.</li>
+<li class="">Filter overlapping detections via NMS.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>area()</code><td>Area of a bounding box.<td>Box coordinates/dimensions<td>Box area<tr><td><code>intersect()</code><td>Intersection area between two boxes.<td>Two <code>Box</code> objects<td>Intersection box/area<tr><td><code>contains()</code><td>Whether a point is inside the box.<td>Point coordinates<td>Containment status<tr><td><code>box_iou()</code><td>Intersection over Union between two boxes.<td>Two <code>Box</code> objects<td>IoU value<tr><td><code>overlap()</code><td>Overlap between two box ranges.<td>Box center and size<td>Overlap value<tr><td><code>box_intersection()</code><td>Intersection area between two boxes.<td>Two <code>Box</code> objects<td>Intersection area<tr><td><code>box_union()</code><td>Union area between two boxes.<td>Two <code>Box</code> objects<td>Union area<tr><td><code>filter_boxes_nms()</code><td>Filters overlapping detections via NMS.<td>Detection list, threshold<td>Filtered detection list</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-detectionsdrp_queue>Module: <code>detections::drp_queue</code><a href=#module-detectionsdrp_queue class=hash-link aria-label="Direct link to module-detectionsdrp_queue" title="Direct link to module-detectionsdrp_queue" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the DRP-AI job-queue interface that manages AI inference execution on the Renesas RZ/V2H, organizing tasks into a queue so hardware-accelerator resources are used safely and sequentially.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>DRPJob</code> class representing an AI inference job.</li>
+<li class="">Define the <code>DRPQueue</code> class for managing queued tasks.</li>
+<li class="">Enqueue DRP-AI jobs for scheduled execution.</li>
+<li class="">Prevent simultaneous access conflicts to DRP-AI resources.</li>
+<li class="">Support orderly AI processing for detection modules.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>DRPQueue()</code><td>Initializes the queue and prepares the job queue.<td>None<td>Initialized <code>DRPQueue</code><tr><td><code>enqueue()</code><td>Adds a new DRP-AI inference job to the queue.<td><code>DRPJob</code> / inference task<td>Queued job status</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-loggerlogger>Module: <code>logger::logger</code><a href=#module-loggerlogger class=hash-link aria-label="Direct link to module-loggerlogger" title="Direct link to module-loggerlogger" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the logging interface and debug-controlled logging macros used across the application.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>logger</code> namespace interface.</li>
+<li class="">Logger initialization and shutdown.</li>
+<li class="">Logging for info, warning, error, and debug messages.</li>
+<li class="">Macro-based logging controls using <code>__DEBUG</code>.</li>
+<li class="">Disable logging macros automatically when debug mode is off.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function / Macro<th>Description<tbody><tr><td><code>init()</code><td>Initializes the logging system with an application name.<tr><td><code>shutdown()</code><td>Shuts down logging and releases resources.<tr><td><code>info()</code> / <code>warn()</code> / <code>error()</code> / <code>debug()</code><td>Write log messages at the respective severity.<tr><td><code>LOGR_INIT()</code> / <code>LOGR_SHUTDOWN()</code><td>Macro wrappers for init/shutdown in debug mode.<tr><td><code>LOGR_INFO()</code> / <code>LOGR_WARN()</code> / <code>LOGR_ERROR()</code> / <code>LOGR_DEBUG()</code><td>Macro wrappers for logging, active only when <code>__DEBUG</code> is enabled.</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-volumecup_volume_estimator>Module: <code>volume::cup_volume_estimator</code><a href=#module-volumecup_volume_estimator class=hash-link aria-label="Direct link to module-volumecup_volume_estimator" title="Direct link to module-volumecup_volume_estimator" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Define the cup-volume-estimation interface to calculate the estimated liquid volume inside a cup, converting visual measurements (height, diameter) into a volume value.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define <code>VolumeInput</code> for input parameters.</li>
+<li class="">Define <code>VolumeResult</code> for the estimated result.</li>
+<li class="">Define the <code>CupVolumeEstimator</code> class interface.</li>
+<li class="">Estimate volume from visual measurement data.</li>
+<li class="">Calculate volume from cup height and diameter.</li>
+<li class="">Apply exposure correction when required.</li>
+<li class="">Provide results for cup measurement, UI display, and dispensing control.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>CupVolumeEstimator()</code><td>Initializes the estimator.<td>None<td>Initialized estimator<tr><td><code>~CupVolumeEstimator()</code><td>Releases estimator resources.<td>None<td>Resources released<tr><td><code>estimate()</code><td>Estimates volume from one frame using cup bounding box, height, tray distance, and focal length.<td><code>VolumeInput</code><td><code>VolumeResult</code><tr><td><code>from_height_diameter()</code><td>Calculates volume directly from height and diameter.<td><code>h_cup_cm</code>, <code>diameter_cm</code><td>Volume (mL)<tr><td><code>apply_exposure()</code><td>Applies a manual V4L2 exposure setting to the capture device.<td><code>cv::VideoCapture&</code><td>Exposure applied</table>
+<hr/>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=module-volumeheight_math>Module: <code>volume::height_math</code><a href=#module-volumeheight_math class=hash-link aria-label="Direct link to module-volumeheight_math" title="Direct link to module-volumeheight_math" translate=no>​</a></h2>
+<p><strong>Purpose</strong> — Provide mathematical helpers for height and geometric measurement in volume estimation, including bounding-box representation and polynomial evaluation.</p>
+<p><strong>Responsibilities</strong></p>
+<ul>
+<li class="">Define the <code>BBox</code> structure for bounding-box measurement data.</li>
+<li class="">Provide measurement utility functions.</li>
+<li class="">Evaluate polynomials used in height/volume estimation.</li>
+<li class="">Support geometric processing for the cup-volume estimator.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Function / Type<th>Description<th>Inputs<th>Outputs<tbody><tr><td><code>BBox</code><td>YOLO bounding box of the detected cup (pixel coordinates).<td><code>x1, y1, x2, y2</code><td>Bounding-box data<tr><td><code>polyval()</code><td>Evaluates a polynomial via Horner's method (like <code>numpy.polyval()</code>).<td>Coefficients, input <code>x</code><td>Evaluated value</table></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href=https://github.com/perseverance-tech-tw/coffee-machine-project-for-UCHI/tree/main/docs/docs/project-documentation/module-design.md target=_blank rel="noopener noreferrer" class=theme-edit-this-page><svg fill=currentColor height=20 width=20 viewBox="0 0 40 40" class=iconEdit_Z9Sw aria-hidden=true><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"/></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href=/coffee-machine-project-doc/docs/project-documentation/software-architecture><div class=pagination-nav__sublabel>Previous</div><div class=pagination-nav__label>4. Software Architecture (SAD)</div></a><a class="pagination-nav__link pagination-nav__link--next" href=/coffee-machine-project-doc/docs/project-documentation/coding-standard><div class=pagination-nav__sublabel>Next</div><div class=pagination-nav__label>6. Coding Standard & Patterns</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#overview class="table-of-contents__link toc-highlight">Overview</a><li><a href=#module-arucoaruco_detector class="table-of-contents__link toc-highlight">Module: <code>aruco::aruco_detector</code></a><li><a href=#module-cameracamera class="table-of-contents__link toc-highlight">Module: <code>camera::camera</code></a><li><a href=#module-detectionscupcup_detector_v2h class="table-of-contents__link toc-highlight">Module: <code>detections::cup::cup_detector_v2h</code></a><li><a href=#module-detectionscupcup_measurement class="table-of-contents__link toc-highlight">Module: <code>detections::cup::cup_measurement</code></a><li><a href=#module-detectionsai class="table-of-contents__link toc-highlight">Module: <code>detections::ai</code></a><li><a href=#module-detectionsbox class="table-of-contents__link toc-highlight">Module: <code>detections::box</code></a><li><a href=#module-detectionsdrp_queue class="table-of-contents__link toc-highlight">Module: <code>detections::drp_queue</code></a><li><a href=#module-loggerlogger class="table-of-contents__link toc-highlight">Module: <code>logger::logger</code></a><li><a href=#module-volumecup_volume_estimator class="table-of-contents__link toc-highlight">Module: <code>volume::cup_volume_estimator</code></a><li><a href=#module-volumeheight_math class="table-of-contents__link toc-highlight">Module: <code>volume::height_math</code></a></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class=footer__title>Docs</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/coffee-machine-project-doc/docs/intro>Introduction</a><li class=footer__item><a class=footer__link-item href=/coffee-machine-project-doc/docs/getting-started/installation>Getting Started</a><li class=footer__item><a href=/coffee-machine-project-doc/api/index.html target=_blank rel="noopener noreferrer" class=footer__link-item>API Reference<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a></ul></div><div class="theme-layout-footer-column col footer__col"><div class=footer__title>Project</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://github.com/perseverance-tech-tw/coffee-machine-project-for-UCHI target=_blank rel="noopener noreferrer" class=footer__link-item>GitHub<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><li class=footer__item><a href=https://github.com/perseverance-tech-tw/coffee-machine-project-for-UCHI/releases target=_blank rel="noopener noreferrer" class=footer__link-item>Releases<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a></ul></div><div class="theme-layout-footer-column col footer__col"><div class=footer__title>More</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/coffee-machine-project-doc/blog>Blog</a><li class=footer__item><a href=https://www.figma.com/design/vR7QZNBvYiHOfpm06ePmGw/Untitled target=_blank rel="noopener noreferrer" class=footer__link-item>Figma Prototype<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a></ul></div></div><div class="footer__bottom text--center"><div class=footer__copyright>Copyright © 2026 Perseverance Technology. Built with Docusaurus.</div></div></div></footer></div></body>

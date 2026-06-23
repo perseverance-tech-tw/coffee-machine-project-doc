@@ -1,0 +1,19 @@
+<map id="CoffeePreferenceCustomPage" name="CoffeePreferenceCustomPage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,220,126"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="112,5,201,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,47,134,58,119,98,114,96,129,56,135,44"/>
+<area shape="rect" id="Node000003" href="$classRootWindow.html" title=" " alt="" coords="344,98,447,126"/>
+<area shape="poly" id="edge9_Node000003_Node000002" title=" " alt="" coords="152,48,152,61,157,72,181,82,229,90,343,104,343,109,228,96,180,87,154,76,147,63,146,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,95,291,76,188,36,190,31,293,72,344,90"/>
+<area shape="rect" id="Node000008" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="349,191,441,218"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="365,138,356,151,354,161,358,171,376,188,372,192,354,173,349,161,351,149,360,135"/>
+<area shape="rect" id="Node000004" href="$classArcFace.html" title=" " alt="" coords="293,5,364,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="341,46,356,72,379,96,376,100,352,76,336,49"/>
+<area shape="rect" id="Node000005" href="$classFaceAligner.html" title=" " alt="" coords="388,5,485,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="427,48,404,99,399,97,422,46"/>
+<area shape="rect" id="Node000006" href="$classSystemMonitor.html" title=" " alt="" coords="508,5,629,33"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="548,47,510,76,479,91,448,101,446,96,477,86,507,72,545,42"/>
+<area shape="rect" id="Node000007" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="652,5,789,33"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="697,46,674,62,648,76,596,93,543,104,448,113,447,108,542,99,595,88,646,72,672,58,694,41"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="400,175,402,166,402,150,397,127,402,126,407,149,407,167,406,176"/>
+</map>

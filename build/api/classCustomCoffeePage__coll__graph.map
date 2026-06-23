@@ -1,0 +1,19 @@
+<map id="CustomCoffeePage" name="CustomCoffeePage">
+<area shape="rect" id="Node000001" title="Represents the page for customizing coffee settings like strength." alt="" coords="5,98,150,126"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="77,5,166,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,47,99,58,84,98,79,96,94,56,100,44"/>
+<area shape="rect" id="Node000003" href="$classRootWindow.html" title=" " alt="" coords="308,98,412,126"/>
+<area shape="poly" id="edge9_Node000003_Node000002" title=" " alt="" coords="117,48,117,61,123,72,134,81,152,88,200,99,308,108,308,113,199,104,150,94,131,86,118,76,112,63,111,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,95,256,76,153,36,155,31,258,72,309,90"/>
+<area shape="rect" id="Node000008" href="$classNavigation.html" title="GTK navigation bar with left, center, and right controls." alt="" coords="314,191,406,218"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="330,138,321,151,319,161,323,171,341,188,337,192,319,173,314,161,316,149,325,135"/>
+<area shape="rect" id="Node000004" href="$classArcFace.html" title=" " alt="" coords="258,5,329,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="306,46,321,72,344,96,341,100,317,76,301,49"/>
+<area shape="rect" id="Node000005" href="$classFaceAligner.html" title=" " alt="" coords="353,5,450,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="392,48,369,99,364,97,387,46"/>
+<area shape="rect" id="Node000006" href="$classSystemMonitor.html" title=" " alt="" coords="473,5,594,33"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="513,47,475,76,444,91,413,101,411,96,442,86,472,72,510,42"/>
+<area shape="rect" id="Node000007" href="$structCupMeasurement.html" title="Hasil estimasi volume dan ukuran gelas dari satu siklus deteksi." alt="" coords="617,5,754,33"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="662,46,639,62,613,76,561,93,508,104,413,113,412,108,507,99,560,88,611,72,637,58,659,41"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="365,175,367,166,367,150,362,127,367,126,372,149,372,167,371,176"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="CoffeePreferenceCustomPage" name="CoffeePreferenceCustomPage">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,220,109"/>
+<area shape="rect" id="Node000002" href="$classPageStack.html" title="Base class for all UI pages inside the application&#39;s view stack." alt="" coords="68,5,157,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,49,115,81,110,81,110,49"/>
+</map>
