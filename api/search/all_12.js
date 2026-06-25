@@ -9,7 +9,7 @@ var searchData=
   ['volume_5fmath_2eh_6',['volume_math.h',['../volume__math_8h.html',1,'']]],
   ['volume_5fml_7',['volume_ml',['../structCupMeasurement.html#a1f980883a6364893842ae241f4b9b37c',1,'CupMeasurement::volume_ml'],['../structfusion_1_1VolumeResult.html#a6203cfccb59831840829240f7f7faf66',1,'fusion::VolumeResult::volume_ml']]],
   ['volume_5ftext_8',['volume_text',['../structFrameUpdateData.html#afeb36a5e4149406a239aaeac6972af9a',1,'FrameUpdateData']]],
-  ['volumecoffeepage_9',['VolumeCoffeePage',['../classVolumeCoffeePage.html',1,'VolumeCoffeePage'],['../classVolumeCoffeePage.html#a2f9319e52f0f9b1892e2964a74d96882',1,'VolumeCoffeePage::VolumeCoffeePage()']]],
+  ['volumecoffeepage_9',['volumecoffeepage',['../classVolumeCoffeePage.html',1,'VolumeCoffeePage'],['../classVolumeCoffeePage.html#a2f9319e52f0f9b1892e2964a74d96882',1,'VolumeCoffeePage::VolumeCoffeePage()']]],
   ['volumeinput_10',['VolumeInput',['../structfusion_1_1VolumeInput.html',1,'fusion']]],
   ['volumeresult_11',['VolumeResult',['../structfusion_1_1VolumeResult.html',1,'fusion']]]
 ];

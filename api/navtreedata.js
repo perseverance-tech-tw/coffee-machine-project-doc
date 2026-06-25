@@ -51,8 +51,8 @@ var NAVTREEINDEX =
 [
 "_2include_2moil_2moil__undistorter_8h.html",
 "classSwipeHelper.html",
-"structFrameUpdateData.html#a7108394c5508ddecd8c6d79a596d153b"
+"structBestDistanceResult.html#a74e782a2b38cb637007a06ca5556ef57"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronization';
-var SYNCOFFMSG = 'click to enable panel synchronization';
+var SYNCONMSG = 'click to disable panel synchronisation';
+var SYNCOFFMSG = 'click to enable panel synchronisation';
