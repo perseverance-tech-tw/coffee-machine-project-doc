@@ -12,7 +12,7 @@ var searchData=
   ['start_5frender_5fthread_9',['start_render_thread',['../classFaceDetectionPage.html#a90b08c8a4a3fbebfd9b3da213275d9e9',1,'FaceDetectionPage::start_render_thread()'],['../classPlaceCupPage.html#aa5c81f5cb5136e8d52c37b8a77c966ce',1,'PlaceCupPage::start_render_thread()']]],
   ['stop_5fcamera_10',['stop_camera',['../classCamera.html#a00dd1ebf51d8128b2fbb402d56d1061b',1,'Camera']]],
   ['stop_5frender_5fthread_11',['stop_render_thread',['../classFaceDetectionPage.html#a053eccf27105400a430838461f01c1f4',1,'FaceDetectionPage::stop_render_thread()'],['../classPlaceCupPage.html#a13d3027693159a5d6ed1e8e5508e3bbb',1,'PlaceCupPage::stop_render_thread()']]],
-  ['swipehelper_12',['swipehelper',['../classSwipeHelper.html#ac132db3042e3083b91ede0f72e5f0307',1,'SwipeHelper::SwipeHelper()'],['../classSwipeHelper.html#acb13f389125ef5002e9bdf251f387821',1,'SwipeHelper::SwipeHelper(const Config &amp;config)']]],
+  ['swipehelper_12',['SwipeHelper',['../classSwipeHelper.html#ac132db3042e3083b91ede0f72e5f0307',1,'SwipeHelper::SwipeHelper()'],['../classSwipeHelper.html#acb13f389125ef5002e9bdf251f387821',1,'SwipeHelper::SwipeHelper(const Config &amp;config)']]],
   ['switch_5fto_5floading_5fcoffee_13',['switch_to_loading_coffee',['../classPlaceCupPage.html#a0efc7c76ff4906618a999d1dd71f7271',1,'PlaceCupPage']]],
   ['switch_5fto_5fprevious_5fpage_14',['switch_to_previous_page',['../classPageStack.html#a1e24736cfaf6ee4407a9bf40e9376ceb',1,'PageStack']]]
 ];

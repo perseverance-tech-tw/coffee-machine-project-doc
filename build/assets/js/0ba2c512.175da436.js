@@ -1,1 +1,1 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["1494"],{8845(e){e.exports=JSON.parse('{"metadata":{"permalink":"/coffee-machine-project-for-UCHI/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["1494"],{8845(e){e.exports=JSON.parse('{"metadata":{"permalink":"/coffee-machine-project-doc/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
