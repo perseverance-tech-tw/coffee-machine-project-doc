@@ -10,12 +10,13 @@ var searchData=
   ['anypointm_7',['AnyPointM',['../classMoildev.html#a79ab9286f6d7b32d2e598b913b55c3d3',1,'Moildev']]],
   ['anypointm2_8',['AnyPointM2',['../classMoildev.html#a9a4fe0930b4a867634ba9ff4226af6a6',1,'Moildev']]],
   ['apply_5fexposure_9',['apply_exposure',['../classfusion_1_1CupVolumeEstimator.html#abdd0810cb301a71dfc105048121dacf8',1,'fusion::CupVolumeEstimator']]],
-  ['arcface_10',['arcface',['../classArcFace.html',1,'ArcFace'],['../classAI.html#abb582056fe623e55aa40b865b835ae21',1,'AI::arcface']]],
-  ['aromacontrolpage_11',['AromaControlPage',['../classAromaControlPage.html',1,'']]],
-  ['aruco_20classes_12',['Aruco Classes',['../group__Aruco.html',1,'']]],
-  ['aruco_5fdetector_2ecpp_13',['aruco_detector.cpp',['../aruco__detector_8cpp.html',1,'']]],
-  ['aruco_5fdetector_2eh_14',['aruco_detector.h',['../aruco__detector_8h.html',1,'']]],
-  ['aruco_5fresults_15',['aruco_results',['../structThreadCupData.html#a9e369595726a13810dfc84a00470fb8b',1,'ThreadCupData']]],
-  ['arucodetector_16',['ArucoDetector',['../classArucoDetector.html',1,'']]],
-  ['arucoresult_17',['ArucoResult',['../structArucoResult.html',1,'']]]
+  ['arcface_10',['ArcFace',['../classArcFace.html',1,'']]],
+  ['arcface_11',['arcface',['../classAI.html#abb582056fe623e55aa40b865b835ae21',1,'AI']]],
+  ['aromacontrolpage_12',['AromaControlPage',['../classAromaControlPage.html',1,'']]],
+  ['aruco_20classes_13',['Aruco Classes',['../group__Aruco.html',1,'']]],
+  ['aruco_5fdetector_2ecpp_14',['aruco_detector.cpp',['../aruco__detector_8cpp.html',1,'']]],
+  ['aruco_5fdetector_2eh_15',['aruco_detector.h',['../aruco__detector_8h.html',1,'']]],
+  ['aruco_5fresults_16',['aruco_results',['../structThreadCupData.html#a9e369595726a13810dfc84a00470fb8b',1,'ThreadCupData']]],
+  ['arucodetector_17',['ArucoDetector',['../classArucoDetector.html',1,'']]],
+  ['arucoresult_18',['ArucoResult',['../structArucoResult.html',1,'']]]
 ];

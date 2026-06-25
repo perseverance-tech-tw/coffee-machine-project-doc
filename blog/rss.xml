@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Coffee Machine Documentations Blog</title>
-        <link>https://perseverance-tech-tw.github.io/coffee-machine-project-for-UCHI/blog</link>
+        <link>https://perseverance-tech-tw.github.io/coffee-machine-project-doc/blog</link>
         <description>Coffee Machine Documentations Blog</description>
         <lastBuildDate>Wed, 24 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,14 +10,14 @@
         <language>en</language>
         <item>
             <title><![CDATA[Meet the Team]]></title>
-            <link>https://perseverance-tech-tw.github.io/coffee-machine-project-for-UCHI/blog/meet-the-team</link>
-            <guid>https://perseverance-tech-tw.github.io/coffee-machine-project-for-UCHI/blog/meet-the-team</guid>
+            <link>https://perseverance-tech-tw.github.io/coffee-machine-project-doc/blog/meet-the-team</link>
+            <guid>https://perseverance-tech-tw.github.io/coffee-machine-project-doc/blog/meet-the-team</guid>
             <pubDate>Wed, 24 Jun 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[At Perseverance Technology, we believe that great technology is built by great people. The Smart Coffee Machine is the result of close collaboration across hardware, computer vision, and software engineering.]]></description>
             <content:encoded><![CDATA[<p>At Perseverance Technology, we believe that great technology is built by great people. The <strong>Smart Coffee Machine</strong> is the result of close collaboration across hardware, computer vision, and software engineering.</p>
 <p>In this post, we would like to introduce the software engineers behind the <strong>Coffee Machine</strong> division — the problem-solvers and builders dedicated to delivering a reliable, AI-powered coffee experience.</p>
 <!-- -->
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="our-software-engineers">Our Software Engineers<a href="https://perseverance-tech-tw.github.io/coffee-machine-project-for-UCHI/blog/meet-the-team#our-software-engineers" class="hash-link" aria-label="Direct link to Our Software Engineers" title="Direct link to Our Software Engineers" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="our-software-engineers">Our Software Engineers<a href="https://perseverance-tech-tw.github.io/coffee-machine-project-doc/blog/meet-the-team#our-software-engineers" class="hash-link" aria-label="Direct link to Our Software Engineers" title="Direct link to Our Software Engineers" translate="no">​</a></h2>
 <ul>
 <li class=""><strong>Danny Prihandoko</strong> — Software Engineer</li>
 <li class=""><strong>Arief Satrio Budi Prasojo</strong> — Software Engineer</li>
