@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([["1833"],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Meet the Team","permalink":"/coffee-machine-project-for-UCHI/blog/meet-the-team","unlisted":false,"date":"2026-06-24T00:00:00.000Z"}]}')}}]);
